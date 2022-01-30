@@ -21,6 +21,6 @@ def send_welcome(message):
 
 @bot.message_handler(commands=["beautiful"])
 def send_welcome(message):
-    bot.reply_to(message, "https://cdn.wallpapersafari.com/25/30/4oXdAe.jpg", "https://wallpaperaccess.com/full/775140.gif")
+    bot.reply_to(message, "https://cdn.wallpapersafari.com/25/30/4oXdAe.jpg")
 
 bot.polling()

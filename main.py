@@ -11,16 +11,4 @@ def send_welcome(message):
 def send_welcome(message):
     bot.reply_to(message,"https://t.me/Anytime_Sri_Lankan_link_Share")
 
-@bot.message_handler(commands=["wallpapers"])
-def send_welcome(message):
-    bot.reply_to(message, "https://images.app.goo.gl/khqJQhHS294z3zxu8")
-
-@bot.message_handler(commands=["telegrampc"])
-def send_welcome(message):
-    bot.reply_to(message, "https://telegram.org/dl/desktop/win64")
-
-@bot.message_handler(commands=["beautiful"])
-def send_welcome(message):
-    bot.reply_to(message, "https://cdn.wallpapersafari.com/25/30/4oXdAe.jpg")
-
 bot.polling()
